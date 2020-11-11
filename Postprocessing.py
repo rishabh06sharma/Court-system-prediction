@@ -1,11 +1,4 @@
-#######################################################################################################################
-# YOU MUST FILL OUT YOUR SECONDARY OPTIMIZATION METRIC (either accuracy or cost)!
-# The metric chosen must be the same for all 5 methods.
-#
-# Chosen Secondary Optimization Metric: # ACCURACY
-#
-# UPDATED 5/3/2020
-#######################################################################################################################
+
 """ Determines the thresholds such that each group has equal predictive positive rates within 
     a tolerance value epsilon. For the Naive Bayes Classifier and SVM you should be able to find
     a nontrivial solution with epsilon=0.02. 
