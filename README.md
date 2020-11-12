@@ -8,7 +8,7 @@ Northpointe actually incorporated these base rates into its algorithm. Northpoin
 incorporate race as a data feature, although racial bias may implicitly be incorporated through
 implicit biases and historical inequalities [1].
 In light of the disparity introduced by COMPAS, it is evident that a more fair algorithm is
-needed. As an NGO centered around the belief of fairness for all, we believe that the variance in
+needed. In this project, we believe that the variance in
 accuracy between groups needs to be accounted for. Postprocessing methods that account for
 hidden classes, like race, may be used to reduce this variance in accuracy between groups while
 maximizing overall accuracy and reducing operational costs incurred by incorrect predictions.
@@ -28,7 +28,7 @@ maximizing overall accuracy and reducing operational costs incurred by incorrect
 5. Equal Opportunity
 
 The objective of this method was to optimize accuracy and reduce variation in TPR and TNR
-between groups . The method our NGO chose based on testing a myriad of machine learning
+between groups . Our selection is based on testing a myriad of machine learning
 optimization techniques and postprocessing methods is a Support Vector Machine (SVM)
 driven algorithm post-processed for equal opportunity .
 In order to enforce equal opportunity, the TPR values (and thus, FNR values) between the
