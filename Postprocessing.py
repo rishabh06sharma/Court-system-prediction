@@ -5,6 +5,8 @@
     Chooses the best solution of those that satisfy this constraint based on chosen 
     secondary optimization criteria.
 """
+#Just to check
+
 def compare_probs(prob1, prob2, epsilon):    # Uncertain if this will be in the final utils.py, adding it here.
     return abs(prob1 - prob2) <= epsilon
 
